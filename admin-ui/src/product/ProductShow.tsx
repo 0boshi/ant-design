@@ -24,6 +24,7 @@ export const ProductShow = (props: ShowProps): React.ReactElement => {
         <TextField label="Name" source="name" />
         <TextField label="Item Price" source="itemPrice" />
         <TextField label="Description" source="description" />
+        <TextField label="po" source="po" />
         <ReferenceManyField reference="Order" target="ProductId" label="Orders">
           <Datagrid rowClick="show">
             <TextField label="ID" source="id" />
