@@ -25,6 +25,7 @@ const CREATE_INPUT = {
   name: "exampleName",
   itemPrice: 42.42,
   description: "exampleDescription",
+  po: "examplePo",
 };
 const CREATE_RESULT = {
   id: "exampleId",
@@ -33,6 +34,7 @@ const CREATE_RESULT = {
   name: "exampleName",
   itemPrice: 42.42,
   description: "exampleDescription",
+  po: "examplePo",
 };
 const FIND_MANY_RESULT = [
   {
@@ -42,6 +44,7 @@ const FIND_MANY_RESULT = [
     name: "exampleName",
     itemPrice: 42.42,
     description: "exampleDescription",
+    po: "examplePo",
   },
 ];
 const FIND_ONE_RESULT = {
@@ -51,6 +54,7 @@ const FIND_ONE_RESULT = {
   name: "exampleName",
   itemPrice: 42.42,
   description: "exampleDescription",
+  po: "examplePo",
 };
 
 const service = {

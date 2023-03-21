@@ -64,4 +64,5 @@ model Product {
   itemPrice   Float?
   description String?
   orders      Order[]
+  po          String?
 }

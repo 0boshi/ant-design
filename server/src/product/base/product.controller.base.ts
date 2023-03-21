@@ -59,6 +59,7 @@ export class ProductControllerBase {
         name: true,
         itemPrice: true,
         description: true,
+        po: true,
       },
     });
   }
@@ -86,6 +87,7 @@ export class ProductControllerBase {
         name: true,
         itemPrice: true,
         description: true,
+        po: true,
       },
     });
   }
@@ -114,6 +116,7 @@ export class ProductControllerBase {
         name: true,
         itemPrice: true,
         description: true,
+        po: true,
       },
     });
     if (result === null) {
@@ -151,6 +154,7 @@ export class ProductControllerBase {
           name: true,
           itemPrice: true,
           description: true,
+          po: true,
         },
       });
     } catch (error) {
@@ -187,6 +191,7 @@ export class ProductControllerBase {
           name: true,
           itemPrice: true,
           description: true,
+          po: true,
         },
       });
     } catch (error) {
